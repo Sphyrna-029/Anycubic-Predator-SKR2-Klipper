@@ -9,4 +9,4 @@ Run Delta Calibrate, bring print head down to bed with TESTZ until it rubs again
 DELTA_CALIBRATE METHOD=manual
 TESTZ Z=-.1
 ACCEPT
-SAVE_CONFIG```
+SAVE_CONFIG
