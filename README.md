@@ -5,7 +5,8 @@ Klipper config and firmware (STM32F407) for Anycubic Predator running SKR2 board
 ### Manual Leveling
 Run **DELTA_CALIBRATE**, bring print head down to bed with **TESTZ** until it rubs against paper. Run **ACCEPT** when height is satisfactory and move onto next point. **SAVE_CONFIG** after last point.
 
-```G28
+```
+G28
 DELTA_CALIBRATE METHOD=manual
 TESTZ Z=-.1
 ACCEPT
